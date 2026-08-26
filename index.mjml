@@ -97,7 +97,7 @@
                 </mj-text>
                 <mj-image src="img/TurnSmartData-554x269.png" alt="Turn It Into Smart Data" width="554px" align="center" padding="30px 0 30px 0" />
                 <mj-text font-family="Arial, Helvetica, sans-serif" font-size="15px" line-height="20px" color="#FFFFFF">
-                    Your entire site can be captured into an accurate, measurable 3D model in hours, not days &mdash; replacing tedious photo&#8209;taking, manual measurements and slow email back&#8209;and&#8209;forth with one reliable record of site conditions.
+                    Simply export 3D site files, BIM, CAD and point&#8209;cloud data in the formats your teams already use &mdash; .E57, .XYZ, .OBJ, .RVT, .IFC, .DWG.
                 </mj-text>
             </mj-column>
         </mj-section>
