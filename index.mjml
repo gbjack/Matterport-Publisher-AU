@@ -107,7 +107,7 @@
                 <mj-text font-family="Roboto, Arial, sans-serif" font-size="18px" line-height="23px" color="#FFFFFF" font-weight="bold">
                     3.&nbsp;&nbsp;Connect &amp; Collaborate
                 </mj-text>
-                <mj-image src="img/img-connectCollaborate-554x269.png" alt="Turn It Into Smart Data" width="554px" align="center" padding="30px 0 30px 0" />
+                <mj-image src="img/img-connectCollaborate-554x269.png" alt="Connect and Collaborate" width="554px" align="center" padding="30px 0 30px 0" />
                 <mj-text font-family="Arial, Helvetica, sans-serif" font-size="15px" line-height="20px" color="#FFFFFF">
                     Your project data is accessible to everyone &mdash; architects, VDC/BIM managers, site managers, project directors and subcontractors. One platform to uncover insights and drive fast decisions. One source of truth from capture to handover.
                 </mj-text>
@@ -194,7 +194,7 @@
 
          <mj-section>
             <mj-column>
-                <mj-image src="img/img-fieldKit-600x385.jpg" alt="he complete field kit for enterprise-grade capture" width="554px" align="center" />
+                <mj-image src="img/img-fieldKit-600x385.jpg" alt="The complete field kit for enterprise-grade capture" width="600px" align="center" />
             </mj-column>
         </mj-section>
 
