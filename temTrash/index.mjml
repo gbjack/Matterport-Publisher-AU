@@ -15,22 +15,14 @@
         <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto" />
 
 		<mj-style>
-            * { -webkit-font-smoothing: antialiased !important; -moz-osx-font-smoothing: grayscale !important; } 
-            a[x-apple-data-detectors], p, li { text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; } 
-            body { margin: 0; padding: 0; background-color: #000000 !important; }
-            [data-ogsc] .body-wrapper, [data-ogsb] .body-wrapper { background-color: #000000 !important; }
-            .body-wrapper { background-image: linear-gradient(#000000, #000000) !important; }
-            .ReadMsgBody { width: 100%; } 
-            .ExternalClass { width: 100%; }
-            .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
-            a.MsoHyperlink, span.MsoHyperlink { mso-style-priority:99; color: inherit; }
-            a.MsoHyperlinkFollowed, span.MsoHyperlinkFollowed { mso-style-priority: 99; color: inherit; }
-            p, td, div { mso-line-height-rule: exactly; }
-            u + .body-wrapper a { color: inherit; text-decoration: none; font-size: inherit; font-family: inherit; font-weight: inherit; line-height: inherit; }
-            .a6S { display: none !important; opacity: 0.01 !important; }
-            img.g-img + div { display: none !important; }
-            .im { color: inherit !important; }
-            a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; }
+            * { -webkit-font-smoothing: antialiased !important; -moz-osx-font-smoothing: grayscale !important; }
+            a[x-apple-data-detectors],
+            u + .body-wrapper a,
+            a.MsoHyperlink,
+            a.MsoHyperlinkFollowed {
+            color: inherit !important;
+            text-decoration: none !important;
+            }
         </mj-style>
 		
 	</mj-head>
@@ -207,16 +199,16 @@
         </mj-section>
 
         <mj-section padding="0 23px 30px 23px">
-            <mj-column width="48%" background-color="#FF3158" border-radius="14px" padding="20px">
+            <mj-column background-color="#FF3158" border-radius="14px" padding="20px 0 20px 0">
                 <mj-text font-family="Roboto, Arial, sans-serif" font-size="18px" line-height="23px" font-weight="bold" align="center" color="#2B2A2A">
                     Performance Kit<br />
                 <span style="color: #FFFFFF; font-weight: bold;">AU $7,500</span>
                 </mj-text>
             </mj-column>
-            <mj-column width="4%">
+            <!-- <mj-column width="20px">
                 <mj-spacer height="20px" />
-            </mj-column>
-            <mj-column width="48%" background-color="#2B2A2A" border-radius="14px" padding="20px">
+            </mj-column> -->
+            <mj-column background-color="#2B2A2A" border-radius="14px" padding="20px 0 20px 0">
                 <mj-text font-family="Roboto, Arial, sans-serif" font-size="18px" line-height="23px" font-weight="bold" align="center" color="#FF3158">
                     <span style="white-space: nowrap;">Pro3 Camera<br />
                     <span style="color: #FFFFFF; font-weight: bold;">AU $6,500</span></span>
